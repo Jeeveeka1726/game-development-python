@@ -5,17 +5,15 @@ Function roll_die():
 
 Function  dice_rolling_simulator():
     Display "Welcome to the Dice Rolling Simulator!"
-
-    Repeat:
+Repeat:
         Display "Press Enter to roll the die..."
         Wait for user to press Enter
        Initialise the score as 0
         result = roll_die()
         Display "You rolled: " + result
         Add the result to the score variable
-
-        Display "Roll again? (yes/no):"
+ Display "Roll again? (yes/no):"
         Get user input and convert to lowercase
 
-    If the user input is not 'yes'
+If the user input is not 'yes'
     Display The score and "Thanks for rolling! Goodbye."
